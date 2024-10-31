@@ -1,6 +1,6 @@
 name: tabuada
 description: "Desperte o talento matemático do seu filho com o Jogo Educativo Infantil! Este aplicativo interativo oferece desafios matemáticos divertidos, onde as crianças podem praticar adição e multiplicação. Com um sistema de pontos que recompensa o aprendizado, cada resposta correta aumenta a pontuação, enquanto um temporizador adiciona emoção ao jogo. Ideal para crianças de 5 a 10 anos, o aplicativo combina aprendizado e diversão de forma envolvente!"
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+#publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 version: 1.0.0+1
 
