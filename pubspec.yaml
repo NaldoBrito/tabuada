@@ -1,0 +1,36 @@
+name: tabuada
+description: "Desperte o talento matemático do seu filho com o Jogo Educativo Infantil! Este aplicativo interativo oferece desafios matemáticos divertidos, onde as crianças podem praticar adição e multiplicação. Com um sistema de pontos que recompensa o aprendizado, cada resposta correta aumenta a pontuação, enquanto um temporizador adiciona emoção ao jogo. Ideal para crianças de 5 a 10 anos, o aplicativo combina aprendizado e diversão de forma envolvente!"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
+  min_sdk_android: 21 # versão mínima Android
+
+flutter:
+  uses-material-design: true
+  # Adicionando ativos de imagem
+  assets:
+    - assets/icon/icon.png
+  # Adicionando fonte personalizada
+  fonts:
+    - family: ComicSans
+      fonts:
+        - asset: assets/fonts/ComicSans.ttf
